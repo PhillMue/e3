@@ -24,3 +24,63 @@ h5,
 h6 {
     font-family: 'Ubuntu', sans-serif;
 }
+
+/*Home section*/
+
+#home {
+    height: 100vh;
+    background-image: url(../backgrounds/hero.jpg);
+    color: white;
+    padding: 10%;
+    font-size: 2em;
+}
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+#menu li a {
+    margin: 10px;
+    color: #fff;
+}
+#home-p {
+    margin-top: 10%;
+}
+============================
+/*Choices section*/
+
+#choices {}
+#choices form {
+    background-color: #C4C1A2;
+    height: 10vh;
+    padding: 25px;
+}
+#choices form a {
+    padding-left: 10%;
+    color: #000;
+}
+============================
+/*Men and women sections*/
+
+#men,
+women {
+    height: 100%;
+}
+.image {
+    background-color: #F5F4F7;
+}
+.image:hover {
+    border: solid 5px #A89D73;
+}
+============================
+/*About section*/
+
+#about {}
+.more {
+    background-image: url(../backgrounds/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 402px;
+    padding: 20%;
+}
+============================
+/*Sale section*/
