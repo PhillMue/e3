@@ -85,6 +85,27 @@ women {
 ============================
 /*Sale section*/
 
+#sale {}
+#sale div {
+    height: 80px;
+    background-color: #545155;
+}
+#sale div p,
+img {
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+============================
+/*Social section*/
+
+#social {
+    height: 50vh;
+}
+.base {
+    padding: 5%;
+}
 
 
 
